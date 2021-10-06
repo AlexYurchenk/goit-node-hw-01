@@ -1,8 +1,6 @@
 const fs = require("fs/promises");
 const path = require("path");
 const crypto = require("crypto");
-const { constants } = require("buffer");
-const { resourceLimits } = require("worker_threads");
 
 const contactsPath = path.join(__dirname, "db", "contacts.json");
 
